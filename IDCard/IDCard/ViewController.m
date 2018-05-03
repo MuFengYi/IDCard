@@ -23,6 +23,11 @@
     NSLog(@"bool=%d",[IDCardNumberValidator validateIDCardNumber:@"430524199008239593"]);
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    NSLog(@"bool=%d",[IDCardNumberValidator validateIDCardNumber:textField.text]);
+    return YES;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
