@@ -16,6 +16,7 @@
 		B4947F87209AF15200B42982 /* CityCode_CN.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4947F86209AF15200B42982 /* CityCode_CN.plist */; };
 		B4947F8C209AF62B00B42982 /* IDCardNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B4947F88209AF62B00B42982 /* IDCardNumberValidator.m */; };
 		B4947F8D209AF62B00B42982 /* NSString+IDCardNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B4947F89209AF62B00B42982 /* NSString+IDCardNumberValidator.m */; };
+		B4A5E85320A0225200820F73 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A5E85220A0225200820F73 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		B4947F89209AF62B00B42982 /* NSString+IDCardNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IDCardNumberValidator.m"; sourceTree = "<group>"; };
 		B4947F8A209AF62B00B42982 /* IDCardNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCardNumberValidator.h; sourceTree = "<group>"; };
 		B4947F8B209AF62B00B42982 /* NSString+IDCardNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IDCardNumberValidator.h"; sourceTree = "<group>"; };
+		B4A5E85120A0225200820F73 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B4A5E85220A0225200820F73 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 				B4947F88209AF62B00B42982 /* IDCardNumberValidator.m */,
 				B4947F8B209AF62B00B42982 /* NSString+IDCardNumberValidator.h */,
 				B4947F89209AF62B00B42982 /* NSString+IDCardNumberValidator.m */,
+				B4A5E85120A0225200820F73 /* Person.h */,
+				B4A5E85220A0225200820F73 /* Person.m */,
 				B4947F76209AE8F100B42982 /* Main.storyboard */,
 				B4947F79209AE8F200B42982 /* Assets.xcassets */,
 				B4947F7B209AE8F200B42982 /* LaunchScreen.storyboard */,
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A5E85320A0225200820F73 /* Person.m in Sources */,
 				B4947F8C209AF62B00B42982 /* IDCardNumberValidator.m in Sources */,
 				B4947F75209AE8F100B42982 /* ViewController.m in Sources */,
 				B4947F8D209AF62B00B42982 /* NSString+IDCardNumberValidator.m in Sources */,
